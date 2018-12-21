@@ -3542,7 +3542,10 @@ grid 2.54 mm</description>
 <text x="111.76" y="-121.92" size="1.778" layer="91">IR_Sensor_FrontRight</text>
 <text x="182.88" y="-124.46" size="1.778" layer="91">IR_Sensor_Right</text>
 <text x="-33.02" y="-121.92" size="1.778" layer="91">IR_Sensor_Left</text>
-<text x="40.64" y="-195.58" size="0.8128" layer="91">IR_Emitter_FrontLeft</text>
+<text x="2.54" y="-218.44" size="1.778" layer="91">IR_Emitter_FrontLeft</text>
+<text x="76.2" y="-218.44" size="1.778" layer="91">IR_Emitter_FrontRight</text>
+<text x="147.32" y="-220.98" size="1.778" layer="91">IR_Emitter_Right</text>
+<text x="-68.58" y="-218.44" size="1.778" layer="91">IR_Emitter_Left</text>
 </plain>
 <instances>
 <instance part="C_5VREG1" gate="G$1" x="40.64" y="90.17" smashed="yes">

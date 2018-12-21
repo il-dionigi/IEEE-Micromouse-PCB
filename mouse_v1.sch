@@ -4380,7 +4380,7 @@ Source: www.kingbright.com</description>
 <part name="C_3V3REG1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C_3V3REG2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U1" library="L293DD" deviceset="L293DD" device=""/>
-<part name="R_LED" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="1K"/>
+<part name="R_LED" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="100"/>
 <part name="LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 </parts>

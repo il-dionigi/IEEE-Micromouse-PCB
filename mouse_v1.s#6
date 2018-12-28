@@ -9001,7 +9001,7 @@ W = angled&lt;p&gt;
 <part name="T_IR-R" library="MMBF170LT1" deviceset="MMBF170LT1G" device=""/>
 <part name="REG_5V" library="MC33269" deviceset="MC7805" device=""/>
 <part name="REG_3V3" library="MC33269" deviceset="MC33269" device=""/>
-<part name="NSRT_SWITCH" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="NRST_SWITCH" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R_NRST" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="10K"/>
 <part name="R_BOOT1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:23495/1" value="10K"/>
@@ -9270,7 +9270,7 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="137.16" y="101.6" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="121.92" y="99.06" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="NSRT_SWITCH" gate="1" x="-53.34" y="-93.98" smashed="yes" rot="R180">
+<instance part="NRST_SWITCH" gate="1" x="-53.34" y="-93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="-46.99" y="-91.44" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-49.53" y="-97.155" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -9517,7 +9517,7 @@ W = angled&lt;p&gt;
 <wire x1="17.78" y1="-35.56" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="NSRT_SWITCH" gate="1" pin="S"/>
+<pinref part="NRST_SWITCH" gate="1" pin="S"/>
 <wire x1="-53.34" y1="-99.06" x2="-53.34" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
@@ -10266,14 +10266,12 @@ W = angled&lt;p&gt;
 <wire x1="149.86" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="144.78" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="NSRT" class="0">
 <segment>
 <wire x1="-60.96" y1="-83.82" x2="-53.34" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="-53.34" y="-83.82"/>
 <label x="-60.96" y="-83.82" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="-53.34" y1="-83.82" x2="-53.34" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="NSRT_SWITCH" gate="1" pin="P"/>
+<pinref part="NRST_SWITCH" gate="1" pin="P"/>
 <wire x1="-53.34" y1="-83.82" x2="-50.8" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="R_NRST" gate="G$1" pin="1"/>
 </segment>

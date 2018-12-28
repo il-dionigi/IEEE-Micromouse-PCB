@@ -5589,6 +5589,13 @@ Source: www.kingbright.com</description>
 <wire x1="17.78" y1="-22.86" x2="17.78" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="BOOT1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB2"/>
+<wire x1="149.86" y1="-15.24" x2="157.48" y2="-15.24" width="0.1524" layer="91"/>
+<label x="157.48" y="-15.24" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

@@ -11280,20 +11280,6 @@ naming: grid - package width</description>
 <pinref part="R_BOOT0" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="M_R1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB8"/>
-<wire x1="76.2" y1="-35.56" x2="66.04" y2="-35.56" width="0.1524" layer="91"/>
-<label x="66.04" y="-35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="M_R2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB9"/>
-<wire x1="76.2" y1="-38.1" x2="66.04" y2="-38.1" width="0.1524" layer="91"/>
-<label x="66.04" y="-38.1" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="+"/>
@@ -11524,9 +11510,9 @@ naming: grid - package width</description>
 <label x="-30.48" y="-33.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC4"/>
-<wire x1="149.86" y1="-25.4" x2="157.48" y2="-25.4" width="0.1524" layer="91"/>
-<label x="157.48" y="-25.4" size="0.8128" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PA3"/>
+<wire x1="149.86" y1="-43.18" x2="157.48" y2="-43.18" width="0.1524" layer="91"/>
+<label x="157.48" y="-43.18" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EMIT_R" class="0">

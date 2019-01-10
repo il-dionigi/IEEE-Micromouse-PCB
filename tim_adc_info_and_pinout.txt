@@ -1,0 +1,82 @@
+TIM/ADC PIN INFO
+
+Advanced Control Timers (TIM1)
+- 4 independent channels with complementary PWM outputs w/ programmable inserted dead times. 
+- each channel can be used for
+	- Input capture
+	- Output capture
+	- PWM generation (edge- or enter-aligned modes)
+	- One-pulse mode output
+- configured as 16-bit timers, acts as general-purpose TIMx timers
+- configured as 16-bit PWM generator, has full modulation capability (0-100%)
+
+General-purpose timers (TIMx)
+- each (independent) channel can be used for
+	- Input capture
+	- Output compare
+	- PWM generation
+	- One-pulse mode output
+TIM2, TIM3, TIM4, TIM5:
+- based on a 32-bit auto-reload up/dowcounter and a 16-bit prescaler
+- each feature 4 independent channels
+- each have independent DMA request generation
+- each capable of handling quadrature (incremental) encoder signals and the digital outputs fom 1 to 4 hall-effect sensors
+TIM9, TIM10, TIM 11:
+- based on a 16-bit auto-reload upcounter and a 16-bit prescaler
+- TIM10/TIM11 have one independent channel
+- TIM9 has two independent channels
+- can be synchonized with TIM2-5
+- can be used as simple time bases
+
+Analog-to-digital converter (ADC)
+- 12-bit analog-to-digital ocnverter with 16 external channels
+
+PIN			TIMx							ADCx
+PA0		-	TIM2_CH1/TIM5_CH1			-	ADC1_0
+PA1		-	TIM2_CH2/TIM5_CH2			-	ADC1_1
+PA2		-	TIM2_CH3/TIM5_CH3/TIM9_CH1	-	ADC1_2
+PA3		-	TIM2_CH4/TIM5_CH4/TIM9_CH2	-	ADC1_3
+PA4		-								-	ADC1_4
+PA5		-	TIM2_CH1					-	ADC1_5
+PA6		-	TIM3_CH1					-	ADC1_6
+PA7		-	TIM1_CH1N/TIM3_CH2			-	ADC1_7
+PA8		-	TIM1_CH1					-	
+PA9		-	TIM2_CH2					-	
+PA10	-	TIM1_CH3					-	
+PA11	-	TIM1_CH4					-	
+PA12	-								-	
+PA13	-								-	
+PA14	-								-	
+PA15	-	TIM2_CH1					-	
+PB0		-	TIM3_CH3					-	ADC1_8
+PB1		-	TIM1_CH3N/TIM3_CH4			-	ADC1_9
+PB2		-								-	
+PB3		-	TIM2_CH2					-	
+PB4		-	TIM3_CH1					-	
+PB5		-	TIM3_CH2					-	
+PB6		-	TIM4_CH1					-	
+PB7		-	TIM4_CH2					-	
+PB8		-	TIM4_CH3/TIM10_CH1			-	
+PB9		-	TIM4_CH4/TIM11_CH1			-	
+PB10	-	TIM2_CH3					-	
+PB11	-								-	
+PB12	-								-	
+PB13	-	TIM1_CH1N					-	
+PB14	-	TIM1_CH2N					-	
+PB15	-	TIM1_CH3N					-	
+PC0		-								-	ADC1_10
+PC1		-								-	ADC1_11
+PC2		-								-	ADC1_12
+PC3		-								-	ADC1_13
+PC4		-								-	ADC1_14
+PC5		-								-	ADC1_15
+PC6		-	TIM3_CH1					-	
+PC7		-	TIM3_CH2					-	
+PC8		-	TIM3_CH3					-	
+PC9		-	TIM3_CH4					-	
+PC10	-								-	
+PC11	-								-	
+PC12	-								-	
+PC13	-								-	
+PC14	-								-	
+PC15	-								-	

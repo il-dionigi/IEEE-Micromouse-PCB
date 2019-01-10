@@ -5955,9 +5955,9 @@ W = angled&lt;p&gt;
 <label x="25.4" y="-223.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB1"/>
-<wire x1="149.86" y1="-17.78" x2="157.48" y2="-17.78" width="0.1524" layer="91"/>
-<label x="157.48" y="-17.78" size="0.8128" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PA4"/>
+<wire x1="149.86" y1="-35.56" x2="157.48" y2="-35.56" width="0.1524" layer="91"/>
+<label x="157.48" y="-35.56" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EMIT_FL" class="0">

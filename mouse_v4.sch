@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4353,25 +4353,25 @@ W = angled&lt;p&gt;
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="C_IR-FL1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C_IR-FL2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="R_IR-FL1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="51"/>
+<part name="R_IR-FL1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="15"/>
 <part name="IR_FL" library="sfh4550 _ teft4300" deviceset="EMITTER" device=""/>
 <part name="R_IR-FR2" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="47K"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="C_IR-FR1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C_IR-FR2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="R_IR-FR1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="51"/>
+<part name="R_IR-FR1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="15"/>
 <part name="IR_FR" library="sfh4550 _ teft4300" deviceset="EMITTER" device=""/>
 <part name="R_IR-R2" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="47K"/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="C_IR-R1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C_IR-R2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="R_IR-R1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="51"/>
+<part name="R_IR-R1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="15"/>
 <part name="IR_R" library="sfh4550 _ teft4300" deviceset="EMITTER" device=""/>
 <part name="R_IR-L2" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="47K"/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="C_IR-L1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C_IR-L2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="R_IR-L1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="51"/>
+<part name="R_IR-L1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="15"/>
 <part name="IR_L" library="sfh4550 _ teft4300" deviceset="EMITTER" device=""/>
 <part name="U$4" library="sfh4550 _ teft4300" deviceset="RECEIVER" device=""/>
 <part name="R_IR-L3" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="1.8K"/>
@@ -4762,7 +4762,10 @@ W = angled&lt;p&gt;
 <instance part="GND18" gate="1" x="-25.4" y="-101.6" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="-104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="U$9" gate="G$1" x="-55.88" y="33.02"/>
+<instance part="U$9" gate="G$1" x="-55.88" y="33.02" smashed="yes">
+<attribute name="NAME" x="-73.66" y="50.8" size="2.54" layer="95"/>
+<attribute name="VALUE" x="-73.66" y="12.7" size="2.54" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5074,70 +5077,6 @@ W = angled&lt;p&gt;
 <junction x="142.24" y="106.68"/>
 </segment>
 <segment>
-<pinref part="C_IR-FL1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="-157.48" x2="48.26" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="C_IR-FL2" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="-154.94" x2="55.88" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-154.94" x2="63.5" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-154.94" x2="63.5" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-154.94" x2="55.88" y2="-124.46" width="0.1524" layer="91"/>
-<junction x="55.88" y="-154.94"/>
-<pinref part="IR_FL" gate="G$1" pin="+"/>
-<wire x1="55.88" y1="-124.46" x2="33.02" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-124.46" x2="33.02" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-124.46" x2="33.02" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="33.02" y="-124.46"/>
-<label x="33.02" y="-119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C_IR-FR1" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="-157.48" x2="121.92" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="C_IR-FR2" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="-154.94" x2="129.54" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="-154.94" x2="137.16" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-154.94" x2="137.16" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="-154.94" x2="129.54" y2="-124.46" width="0.1524" layer="91"/>
-<junction x="129.54" y="-154.94"/>
-<pinref part="IR_FR" gate="G$1" pin="+"/>
-<wire x1="129.54" y1="-124.46" x2="106.68" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-124.46" x2="106.68" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-124.46" x2="106.68" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="106.68" y="-124.46"/>
-<label x="106.68" y="-119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C_IR-R1" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="-160.02" x2="193.04" y2="-157.48" width="0.1524" layer="91"/>
-<pinref part="C_IR-R2" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="-157.48" x2="200.66" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-157.48" x2="208.28" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-157.48" x2="208.28" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-157.48" x2="200.66" y2="-127" width="0.1524" layer="91"/>
-<junction x="200.66" y="-157.48"/>
-<pinref part="IR_R" gate="G$1" pin="+"/>
-<wire x1="200.66" y1="-127" x2="177.8" y2="-127" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-127" x2="177.8" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-127" x2="177.8" y2="-121.92" width="0.1524" layer="91"/>
-<junction x="177.8" y="-127"/>
-<label x="177.8" y="-121.92" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C_IR-L1" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="-157.48" x2="-22.86" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="C_IR-L2" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="-154.94" x2="-15.24" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-154.94" x2="-7.62" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-154.94" x2="-7.62" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-154.94" x2="-15.24" y2="-124.46" width="0.1524" layer="91"/>
-<junction x="-15.24" y="-154.94"/>
-<pinref part="IR_L" gate="G$1" pin="+"/>
-<wire x1="-15.24" y1="-124.46" x2="-38.1" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-124.46" x2="-38.1" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-124.46" x2="-38.1" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-124.46"/>
-<label x="-38.1" y="-119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <wire x1="-81.28" y1="45.72" x2="-86.36" y2="45.72" width="0.1524" layer="91"/>
 <label x="-91.44" y="45.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="C_HB-MOTOR" gate="G$1" pin="2"/>
@@ -5327,6 +5266,70 @@ W = angled&lt;p&gt;
 <wire x1="231.14" y1="-76.2" x2="233.68" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="-76.2" x2="233.68" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="233.68" y="-71.12"/>
+</segment>
+<segment>
+<pinref part="C_IR-R1" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="-160.02" x2="193.04" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="C_IR-R2" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="-157.48" x2="200.66" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-157.48" x2="208.28" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-157.48" x2="208.28" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-157.48" x2="200.66" y2="-127" width="0.1524" layer="91"/>
+<junction x="200.66" y="-157.48"/>
+<pinref part="IR_R" gate="G$1" pin="+"/>
+<wire x1="200.66" y1="-127" x2="177.8" y2="-127" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-127" x2="177.8" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-127" x2="177.8" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="177.8" y="-127"/>
+<label x="177.8" y="-121.92" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C_IR-FR1" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-157.48" x2="121.92" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="C_IR-FR2" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-154.94" x2="129.54" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-154.94" x2="137.16" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-154.94" x2="137.16" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-154.94" x2="129.54" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="129.54" y="-154.94"/>
+<pinref part="IR_FR" gate="G$1" pin="+"/>
+<wire x1="129.54" y1="-124.46" x2="106.68" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-124.46" x2="106.68" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-124.46" x2="106.68" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="106.68" y="-124.46"/>
+<label x="106.68" y="-119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C_IR-FL1" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-157.48" x2="48.26" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="C_IR-FL2" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-154.94" x2="55.88" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-154.94" x2="63.5" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-154.94" x2="63.5" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-154.94" x2="55.88" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="55.88" y="-154.94"/>
+<pinref part="IR_FL" gate="G$1" pin="+"/>
+<wire x1="55.88" y1="-124.46" x2="33.02" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-124.46" x2="33.02" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-124.46" x2="33.02" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="33.02" y="-124.46"/>
+<label x="33.02" y="-119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C_IR-L1" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="-157.48" x2="-22.86" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="C_IR-L2" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="-154.94" x2="-15.24" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-154.94" x2="-7.62" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-154.94" x2="-7.62" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-154.94" x2="-15.24" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-154.94"/>
+<pinref part="IR_L" gate="G$1" pin="+"/>
+<wire x1="-15.24" y1="-124.46" x2="-38.1" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-124.46" x2="-38.1" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-124.46" x2="-38.1" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-124.46"/>
+<label x="-38.1" y="-119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
